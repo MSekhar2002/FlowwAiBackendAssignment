@@ -69,10 +69,9 @@ The server will start running on `http://localhost:3001` by default. or user can
     "userId": "3cf4de95-befd-4a93-b08b-6e5d5b5bcdfb"
 }
 ```
-```
+
 #### Screenshot of user registration in Postman
 ![image](https://github.com/user-attachments/assets/3b64fde0-f97a-40ef-b753-993bb633d4d4)
-```
 
 
 ### Transactions
@@ -96,11 +95,9 @@ The server will start running on `http://localhost:3001` by default. or user can
     "transactionId": "616670e5-c4c3-4a72-9e40-da4b37b2ee54"
 }
 ```
-```
 #### Screenshot of adding transaction in Postman
 ![image](https://github.com/user-attachments/assets/f7efab44-a855-414e-bb30-6a9eecc4c05f)
 
-```
 
 #### Get All Transactions
 - **GET** `/transactions?page=1&limit=10`
@@ -118,11 +115,9 @@ The server will start running on `http://localhost:3001` by default. or user can
     }
 ]
 ```
-```
 #### Screenshot of getting transactions including pagination in Postman
 
 ![image](https://github.com/user-attachments/assets/bf42c940-7019-4bcc-98e3-7ed783a6370b)
-```
 
 
 #### Get Transaction by ID
@@ -140,11 +135,10 @@ The server will start running on `http://localhost:3001` by default. or user can
 }
 ```
 
-```
 #### Screenshot of getting a transaction by ID in Postman
 
 ![image](https://github.com/user-attachments/assets/d38509b9-e31d-4cf0-9d0d-5650258121e8)
-```
+
 #### Update Transaction
 - **PUT** `/transactions/:id`
 ```json
@@ -164,13 +158,10 @@ The server will start running on `http://localhost:3001` by default. or user can
     "message": "Transaction updated successfully"
 }
 ```
-```
 #### Screenshot of updating a transaction in Postman
 
 ![image](https://github.com/user-attachments/assets/35f39e56-4907-4ce8-a67b-c8a9eb607312)
 
-
-```
 ### Financial Reports
 
 #### Get Financial Summary
@@ -183,13 +174,9 @@ The server will start running on `http://localhost:3001` by default. or user can
     "balance": 6000
 }
 ```
-```
 #### Screenshot of getting financial summary in Postman
 
 ![image](https://github.com/user-attachments/assets/065b8d0b-9233-4dbb-bced-745f8d536cb6)
-
-
-```
 
 #### Get Monthly Category Report
 - **GET** `/report?month=10&year=2024`
@@ -202,11 +189,9 @@ The server will start running on `http://localhost:3001` by default. or user can
     }
 ]
 ```
-```
 #### Screenshot of getting monthly report in Postman
 
 ![image](https://github.com/user-attachments/assets/19140e72-02b5-41aa-a65f-f56acc6544a8)
-```
 
 #### Delete Transaction
 - **DELETE** `/transactions/:id`
@@ -216,12 +201,10 @@ The server will start running on `http://localhost:3001` by default. or user can
     "message": "Transaction deleted successfully"
 }
 ```
-```
 #### Screenshot of deleting a transaction by id in Postman
 
 ![image](https://github.com/user-attachments/assets/6d2cc042-dee1-4b80-849b-ad4369b22dcc)
 
-```
 
 
 ## Authentication
